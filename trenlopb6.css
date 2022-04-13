@@ -1,0 +1,205 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+.header {
+  display: flex;
+  flex-direction: row;
+  background-color: black;
+  color: white;
+  justify-content: space-between;
+  margin-bottom: 50px;
+}
+
+.headerleft i,
+.headerright {
+  padding: 10px;
+}
+.headerleft i:hover,
+.headerright:hover {
+  background-color: #ccc;
+}
+h1 {
+  margin-bottom: 20px;
+}
+.janeblog {
+  position: relative;
+  /* color: white; */
+  font-size: 40px;
+  margin-bottom: -10px;
+}
+.janeblogtext {
+  position: absolute;
+  left: 3%;
+  top: 50%;
+}
+.janeblog h1 {
+  background-color: aqua;
+}
+.janeblog button {
+  padding: 10px;
+  background-color: #ccc;
+}
+.heading {
+  display: flex;
+  flex-direction: row;
+  background-color: #ccc;
+  padding: 40px;
+  margin: auto;
+  justify-content: space-around;
+}
+.text1 {
+  margin-bottom: 20px;
+}
+.text2 {
+  margin-bottom: 15px;
+}
+.headingleft {
+  width: 60%;
+  padding: 20px;
+  background-color: #ccc;
+}
+.headingleft1 {
+  margin: 40px 0px;
+  padding: 20px;
+  background-color: white;
+}
+.headingleft11 {
+  margin-top: 30px;
+  display: flex;
+}
+.chu p {
+  padding-top: 50px;
+  margin-left: 20px;
+}
+.like {
+  margin-top: 30px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.like p {
+  padding: 10px;
+  background-color: black;
+  color: white;
+}
+.like p:hover {
+  background-color: #ccc;
+}
+.like span {
+  padding: 2px 8px;
+  background-color: white;
+  color: black;
+}
+.headingright {
+  width: 30%;
+}
+.headingright p {
+  padding: 10px;
+  margin-bottom: 10px;
+  /* background-color: black; */
+  /* color: white; */
+}
+.headingright1 {
+  background-color: black;
+  margin-bottom: 20px;
+}
+.myname:hover {
+  cursor: pointer;
+}
+.post1 {
+  display: flex;
+  flex-direction: row;
+  padding: 16px;
+  width: 100%;
+  background-color: white;
+  color: black;
+  border: 1px solid #ccc;
+}
+.headingright2 {
+  background-color: white;
+  color: black;
+}
+.post1:hover {
+  background-color: red;
+}
+.post1 :hover p {
+  background-color: red;
+  cursor: pointer;
+  color: yellow;
+}
+.headingright3 {
+  margin-top: 30px;
+}
+.abc {
+  text-align: center;
+  margin-bottom: 40px;
+}
+.manh {
+  display: none;
+}
+.manh:hover {
+  display: block;
+}
+.abcd {
+  width: 140%;
+  padding: 40px;
+}
+.subcrite {
+  width: 100%;
+  background-color: red;
+  color: white;
+}
+.subcrite :hover {
+  background-color: #ccc;
+  color: black;
+}
+.btn-close {
+  width: 4px;
+  height: 4px;
+  padding: 8px;
+}
+#email1 {
+  height: 35px;
+  width: 100%;
+  padding: 0 8px;
+  font-size: 15px;
+}
+.subcrite:hover {
+  background-color: #ccc;
+  color: black;
+}
+.janeblog img {
+  width: 100%;
+}
+.subcritetext {
+  font-size: 15px;
+}
+.modal-header {
+  padding: 0;
+}
+.modal-body {
+  padding: 0;
+}
+#staticBackdropLabel {
+  margin-bottom: 0px;
+  font-size: 30px;
+}
+@media screen and (max-width: 600px) {
+  .heading {
+    background-color: red;
+  }
+}
+@media screen and (max-width: 1000px) {
+  .headingleft {
+    display: block;
+    width: 100%;
+  }
+  .heading {
+    flex-direction: column;
+  }
+  .headingright {
+    width: 100%;
+  }
+}

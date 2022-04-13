@@ -1,0 +1,162 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding: 8px 16px;
+  letter-spacing: 4px;
+  font-size: 18px;
+  font-weight: 300;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  width: 100%;
+  background-color: white;
+}
+.header a {
+  padding: 8px 16px;
+  text-decoration: none;
+  color: black;
+}
+.header a:hover {
+  background-color: #ccc;
+  color: black;
+}
+.headerleft,
+.headerright {
+  padding: 8px 16px;
+}
+.baner {
+  position: relative;
+}
+.banertext {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.banertext span {
+  font-size: 48px;
+  color: white;
+  padding: 8px 16px;
+  background-color: #000;
+  margin-right: 8px;
+}
+.banertext {
+  color: white;
+  font-size: 42px;
+}
+.content {
+  padding: 8px 16px;
+}
+.content1-img {
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+}
+.content1 img {
+  width: 23%;
+  margin-bottom: 16px;
+}
+.content1-text {
+  padding: 16px 0;
+  margin: 10px 0;
+  font-size: 42px;
+}
+.content2 {
+  padding: 32px 16px;
+}
+.content2-text1 {
+  font-size: 30px;
+  padding: 16px 0;
+  margin: 10px 0;
+}
+.content2-text2 {
+  font-size: 24px;
+}
+.content3-anh1 {
+  display: flex;
+}
+.content3-list {
+  width: 25%;
+  padding: 0 8px;
+}
+.content3-list-img img {
+  width: 100%;
+  opacity: 0.8;
+}
+.content3-list-text1 {
+  margin: 10px 0;
+  font-size: 30px;
+}
+.content3-list-text2 {
+  margin: 15px 0;
+  color: #ccc;
+}
+.content3-list-text3 {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+.content3-list-text4 button {
+  width: 100%;
+  border: none;
+  background-color: #f1f1f1;
+  padding: 8px 16px;
+}
+.content3-list-text4 button:hover {
+  cursor: pointer;
+  background-color: #ccc;
+  color: #000;
+}
+.content4 {
+  padding: 32px 16px;
+}
+.content4-text1 {
+  font-size: 30px;
+  margin: 10px 0;
+  padding: 16px;
+}
+.content4-text2 {
+  padding: 15px 0;
+  font-size: 24px;
+  border-top: 1px solid black;
+}
+.content4-table input {
+  padding: 10px 0;
+  width: 100%;
+  margin-bottom: 15px;
+  padding-left: 20px;
+}
+.content4-table button {
+  margin: 16px 0;
+  padding: 8px 16px;
+  background-color: black;
+  color: white;
+}
+.footer-img {
+  padding-bottom: 8px;
+}
+.footer-text {
+  padding: 16px 0;
+  text-align: center;
+  background-color: #000;
+}
+.footer-text p {
+  margin: 15px 0;
+
+  color: white;
+  font-size: 30px;
+}
+.nut {
+  margin: 16px;
+  padding: 8px 16px;
+  border: none;
+  font-size: 18px;
+}
+.nut:hover {
+  background-color: #ccc;
+  color: black;
+}

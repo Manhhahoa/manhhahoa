@@ -1,0 +1,114 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+.khung {
+  border: solid 3px black;
+  width: 600px;
+}
+.anh {
+  width: 100%;
+  height: 500px;
+}
+img {
+  width: 100%;
+  height: 100%;
+}
+.anh {
+  position: relative;
+}
+.nd1 {
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+  color: red;
+  background-color: aqua;
+  font-size: 30px;
+}
+.nd2,
+.nd3 {
+  font-size: 30px;
+}
+.nd2 {
+  text-decoration: line-through solid 3px;
+}
+.nd3 {
+  color: red;
+}
+.noidung {
+  position: relative;
+}
+.nd21 {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  color: white;
+  background-color: red;
+  padding: 10px;
+}
+.nd22 {
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  color: white;
+  background-color: green;
+  padding: 10px;
+}
+.nd23 {
+  position: absolute;
+  bottom: 12px;
+  left: 205px;
+  text-align: center;
+  width: 40%;
+}
+.nd4 {
+  left: 0px;
+  bottom: 0px;
+  color: red;
+  text-decoration: line-through 3px red;
+}
+.nd5 {
+  left: 0px;
+  bottom: 0px;
+  color: red;
+}
+.khungb3 {
+  display: flex;
+  flex-direction: row;
+  border: 3px solid yellow;
+  padding: 10px;
+}
+.anhb3 {
+  position: relative;
+  width: 9 0%;
+}
+.nd31 {
+  position: absolute;
+  left: 0px;
+  bottom: 0px;
+  color: yellow;
+  background-color: red;
+}
+.nd32 {
+  margin-top: 10px;
+}
+.nd33 {
+  margin: 10px 0px;
+  color: red;
+}
+.anhb4 {
+  display: flex;
+  flex-direction: row;
+  width: 50%;
+}
+.khungb4 {
+  display: flex;
+  flex-direction: row;
+  border-top: solid 2px green;
+  padding: 10px;
+}
+.anh1 {
+  width: 20%;
+  height: auto;
+}

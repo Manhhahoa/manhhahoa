@@ -1,0 +1,142 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: oswald;
+}
+.leftmenu i,
+.rightmenu i {
+  padding: 8px 16px;
+  font-size: 30px;
+}
+.menu {
+  display: flex;
+  justify-content: space-between;
+  color: white;
+  background-color: black;
+}
+.menu i:hover {
+  background-color: #ccc;
+  color: black;
+}
+.heading {
+  text-align: center;
+  padding: 16px 48px;
+}
+.heading h1 {
+  font-size: 48px;
+  margin: 10px 0;
+}
+.heading span {
+  background-color: black;
+  color: white;
+  padding: 0px 8px;
+}
+
+@font-face {
+  font-family: oswald;
+  src: url(./Oswald-VariableFont_wght.ttf);
+}
+.baner {
+  position: relative;
+}
+.banertext {
+  position: absolute;
+  left: 0%;
+  top: 50%;
+  transform: translate(0, -50%);
+  color: white;
+  padding: 12px 24px;
+}
+.banertext h1 {
+  font-size: 64px;
+}
+.banertext p {
+  font-size: 36px;
+  margin: 10px 0;
+}
+.banertext button {
+  font-size: 18px;
+  padding: 12px 24px;
+  opacity: 0.6;
+  border: none;
+  margin: 10px 0;
+}
+.banertext button:hover {
+  background-color: #ccc;
+  opacity: 1;
+}
+.contentleft {
+  width: 66%;
+}
+.contentright {
+  width: 33%;
+}
+.content {
+  display: flex;
+}
+.postheading {
+  text-align: center;
+}
+.postheading p {
+  margin: 10px 0;
+  font-size: 18px;
+}
+.postheading span {
+  opacity: 0.6;
+}
+.postheading h1 {
+  margin: 10px 0;
+  font-size: 24px;
+}
+.post {
+  padding: 12px 24px;
+  margin: 16px;
+}
+.postcontent span {
+  font-weight: bold;
+}
+.postcontent p {
+  margin: 10px 0;
+  text-align: justify;
+}
+.postaction {
+  display: flex;
+  justify-content: space-between;
+  margin: 15px 0;
+}
+.like {
+  background-color: white;
+  color: black;
+  padding: 8px 16px;
+  border: 1px solid #ccc;
+  font-size: 15px;
+}
+.like:hover {
+  background-color: #ccc;
+  cursor: pointer;
+}
+.replise {
+  padding: 8px 16px;
+  color: white;
+  background-color: black;
+  font-size: 15px;
+  font-family: opensan;
+  font-weight: 400;
+  border: none;
+}
+.replise span {
+  padding: 0 8px;
+  border: 1px solid black;
+  background-color: white;
+  color: black;
+}
+.replise:hover {
+  background-color: #ccc;
+  cursor: pointer;
+  color: black;
+}
+@font-face {
+  font-family: opensan;
+  src: url(./OpenSans-VariableFont_wdth\wght.ttf);
+}
