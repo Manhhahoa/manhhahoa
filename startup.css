@@ -1,0 +1,231 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.header {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  color: white;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+
+  position: fixed;
+  z-index: 1;
+}
+.dropdown ul {
+  padding: 0px;
+}
+.header-left {
+  width: 25%;
+  margin-left: 58px;
+}
+.navbar-brand-svg {
+  font-size: 12px;
+}
+.header-left span {
+  font-weight: bold;
+}
+.header-right {
+  width: 74%;
+
+  display: flex;
+}
+.header-left i {
+  padding: 24px 12px;
+}
+.thelink a:hover {
+  color: #f5ba4b;
+}
+
+.thelink {
+  padding: 16px 0;
+}
+span i:hover {
+  color: #f5ba4b;
+  cursor: pointer;
+}
+span i :focus {
+  color: red;
+}
+
+.header-left span {
+  margin: 0 16px;
+}
+.header-right .dropdown {
+  padding: 16px;
+}
+
+.dropdown button {
+  background: none;
+  color: black;
+  border: none;
+  font-weight: bold;
+  color: white;
+}
+.dropdown :hover {
+  color: #f5ba4b;
+}
+.dropdown-menu :hover a {
+  background-color: #ccc;
+  color: black;
+}
+.header-right a {
+  text-decoration: none;
+  color: white;
+  padding: 16px;
+}
+.baner {
+  position: relative;
+}
+.baner-img img {
+  width: 100%;
+  opacity: 1;
+}
+.baner-text {
+  position: absolute;
+  text-align: center;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.baner-text h2,
+.baner-text p {
+  margin-bottom: 24px;
+  color: white;
+}
+.baner-text h2 {
+  font-size: 36px;
+}
+.baner-text p {
+  color: rgba(255, 255, 255, 0.65);
+}
+.baner-text a {
+  color: white;
+  border: 1px solid #f5ba4b;
+  text-decoration: none;
+  padding: 12px;
+}
+.landing {
+  padding: 120px 0;
+}
+.landing h2,
+.landing p {
+  text-align: center;
+  margin-bottom: 24px;
+  line-height: 1.8;
+}
+
+.landing-img {
+  margin: 0 24px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: left;
+}
+.img1 {
+  padding: 0 24px;
+  /* margin-top: 20px; */
+}
+.img1-text {
+  padding: 40px 32px;
+  padding-bottom: 20px;
+}
+.img1-text p {
+  margin-bottom: 0;
+}
+.img1 h4 {
+  margin-bottom: 16px;
+  color: black;
+}
+.img1 p {
+  color: #6c757d;
+  text-align: left;
+}
+.anh1 {
+  width: 33.333%;
+}
+.anh1 .img1 img {
+  width: 100%;
+}
+.anh1 a {
+  text-decoration: none;
+}
+.baner-img::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.493);
+}
+
+.img1:hover img {
+  box-shadow: 0 1rem 2rem -1rem rgb(0 0 0 / 75%);
+  transform: translate(0, -8px);
+  transition: 0.4s;
+}
+.variant h2 {
+  font-weight: 400;
+  margin-bottom: 24px;
+  text-align: center;
+}
+.variant h4 {
+  font-weight: lighter;
+  margin-bottom: 48px;
+  font-size: 18px;
+  text-align: center;
+}
+.variant-img {
+  display: flex;
+  justify-content: center;
+}
+.variant-text {
+  padding: 120px 0;
+  display: flex;
+  justify-content: center;
+}
+.text {
+  padding: 0 24px;
+  margin-bottom: 24px;
+  font-size: 21px;
+  max-width: 75%;
+  line-height: 1.5;
+}
+.variant-text::before {
+  content: "";
+  width: 20px;
+}
+.text p {
+  margin-top: 24px;
+}
+.dropdown :focus {
+  color: #f5ba4b;
+}
+.header-lefti:focus {
+  color: #f5ba4b;
+}
+.dropdown-submenu {
+  position: relative;
+}
+
+.dropdown-submenu1 {
+  top: 0;
+  left: 100%;
+  margin-top: -1px;
+}
+
+.navbar-brand-svg {
+  color: white;
+  width: 90px;
+}
+.text p {
+  text-decoration-line: underline;
+  text-decoration-style: wavy;
+  text-decoration-color: #f5ba4b;
+}
+.line {
+  display: block;
+}
